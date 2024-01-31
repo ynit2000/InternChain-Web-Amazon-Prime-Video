@@ -1,6 +1,6 @@
  @import url('https://fonts.cdnfonts.com/css/amazon-ember');
 
- * {
+ body {
      margin: 0;
      padding: 0;
      box-sizing: border-box;
@@ -169,9 +169,10 @@
  }
 
  .favChannels {
-    
-     width: 45%;
-     margin: 30px 20px;
+
+    font-family: 'Amazon Ember', sans-serif;
+    width: 45%;
+    margin: 30px 20px;
  }
 
  .favChannels>h1 {
@@ -189,98 +190,111 @@
      color: #353333;
  }
 
- .chanelBtn {
-     width: 40%;
+ .channelBtn {
+     width: 55%;
      display: flex;
      flex-wrap: wrap;
  }
 
- .chanelBtn img {
+ .channelBtn img {
      width: 194px;
      height: 134px;
      margin: 5px;
  }
 
- .chanelBtn img:hover{
-    cursor: pointer;
-    box-shadow: 3px 3px 8px #000 , -3px -3px 8px #000;
+ .channelBtn img:hover {
+     cursor: pointer;
+     box-shadow: 3px 3px 8px #000, -3px -3px 8px #000;
  }
 
-.fire-tv-header{
-    position: relative;
-    min-width: 320px;
-    height: 485px;
-    overflow: hidden;
-    color: #fff;
+ .fire-tv-header {
+     position: relative;
+     display: flex;
+     align-items: center;
  }
 
- .fire-over-image{
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0);
-    width: 45%;
-    height: 100px;
-    position: absolute;
-    top: 60%;
-    left: 75%;
-    transform: translate(-50%, -40%);
+ .fire-tv-header img {
+     flex: 1;
+     /* This makes the image take up the available space */
+     object-fit: cover;
+     height: 100%;
+     /* Ensure the image takes the full height of the container */
  }
+
+ 
 
  .fire-head {
-    font-size: 44px;
-    font-weight: 400;
-    line-height: 50px;
- }
- .fire-para{
-    align-items: top-left;
-    font-size: 21px;
-    font-weight: 300;
-    line-height: 28px;
-    width: 800px;
-    margin: 30px 0;
+    font-family: 'Amazon Ember', sans-serif;
+     margin-top: 0;
+     /* Remove default margin */
  }
 
- .fire-over-image > button {
-    width: 280px;
-    background-color: #0f79af;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 14px 22px;
-    margin-bottom: 10px;
-    border: none;
+ .fire-para {
+    font-family: 'Amazon Ember', sans-serif;
+     margin-top: 10px;
+     /* Adjust spacing between h1 and p */
+ }
+
+ button {
+     background-color:#0f79af;
+     color: #fff;
+     padding: 10px 20px;
+     border-radius: 3px;
     color: #fff;
-    cursor: pointer;
-
+     border: none;
+     cursor: pointer;
  }
-.logo > div{
-    text-align: center;
-    padding-bottom: 5px;
 
-}
+ /* Adjust button styles as needed */
 
 
- footer {
-    background-color: #000;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+ .logo>div {
+     text-align: center;
+     padding-bottom: 5px;
 
  }
 
- #copyright > p {
-    margin-left: 20px;
-    padding-bottom: 20px;
 
 
+
+
+
+ .DVPAWebWidgetsFooter_Footer__footer {
+     padding-top: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
  }
 
- .copy {
-    color: #949494;
-    text-align: center;
-    justify-self: center;
-    position: absolute;
-    padding-top: 30px;
-    padding-left: 10px;
+ .footer {
+     background-color: #222222;
+     padding: 24px;
+ }
+
+ .DVPAWebWidgetsFooter_Footer__logo {
+     max-width: 100%;
+     height: auto;
+     margin-bottom: 10px;
+ }
+
+ .DVPAWebWidgetsFooter_Footer__text {
+     margin: 10px 0;
+ }
+
+ .DVPAWebWidgetsFooter_Footer__link {
+     margin: 0 10px;
+ }
+
+ .DVPAWebWidgetsFooter_Footer__copyright {
+     margin-top: 10px;
+ }
+
+ div.section {
+    background-color: #fff;
+    color: #000;
+
+ }
+ div.channelBtn{
+    background-color: #fff;
  }
