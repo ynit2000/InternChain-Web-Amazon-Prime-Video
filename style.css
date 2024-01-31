@@ -1,0 +1,286 @@
+ @import url('https://fonts.cdnfonts.com/css/amazon-ember');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Amazon Ember', sans-serif;
+     list-style: none;
+     outline: none;
+     text-decoration: none;
+     background-color: #000;
+
+ }
+
+ a {
+     cursor: pointer;
+ }
+
+ /* nagivation  */
+
+ nav {
+     background-color: #000;
+     padding: 0px 25px;
+     display: flex;
+     justify-content: space-between;
+     position: sticky;
+     width: 100%;
+     z-index: 10;
+     top: 0;
+
+
+
+ }
+
+ .logo img {
+     margin-top: 15px;
+     width: 200px;
+     height: 37px;
+     object-fit: cover;
+
+ }
+
+ .right-menu {
+     padding: 20px;
+     font-size: 20px;
+
+ }
+
+ .right-menu a {
+     padding: 5px 15px;
+     color: rgba(242, 244, 246, 0.9);
+
+ }
+
+ .right-menu label:hover {
+     cursor: pointer;
+
+ }
+
+ .right-menu a:nth-child(2),
+ .right-menu>a>label {
+     font-size: 18px;
+     padding: 0px 3px;
+
+ }
+
+ .arrow-down {
+     font-size: 12px;
+ }
+
+ header {
+     position: relative;
+     min-width: 320px;
+     height: 680px;
+     overflow: hidden;
+     color: #fff;
+ }
+
+ header>img {
+     align-items: center;
+     width: 100%;
+     object-fit: cover;
+ }
+
+ .text-over-image {
+     background: rgba(0, 0, 0, 0);
+     box-shadow: inset 545px 0px 60px #000;
+     width: 45%;
+     height: 100%;
+     position: absolute;
+     top: 48%;
+     transform: translate(-50%, -50%);
+
+ }
+
+ .text-over-image>h1 {
+     font-size: 44px;
+     font-weight: 400;
+     line-height: 50px;
+     margin-left: 52%;
+     margin-top: 100px;
+     padding: 20px 0;
+
+
+ }
+
+ .text-over-image>p {
+     margin-left: 52%;
+     font-size: 24px;
+     line-height: 29px;
+     font-weight: 300;
+
+ }
+
+
+ text-over-image>p:nth-child(2) {
+
+     font-size: 10px;
+     line-height: 10px;
+     margin-top: 12px;
+ }
+
+ .text-over-image>p:nth-child(4) {
+
+     font-size: 15px;
+     line-height: 19px;
+     margin-top: 12px;
+ }
+
+ .text-over-image>button {
+     margin-left: 52%;
+     width: 280px;
+     background-color: #0f79af;
+     font-size: 18px;
+     font-weight: 500;
+     padding: 14px 22px;
+     border: none;
+     border-radius: 3px;
+     color: #fff;
+     cursor: pointer;
+ }
+
+ #footer-image {
+
+
+     position: relative;
+     margin-top: 5%;
+
+     padding-bottom: 1px;
+
+
+ }
+
+ .text-over-image>p:last-child {
+     width: 280px;
+     font-size: 14px;
+     text-align: center;
+     font-weight: 300;
+ }
+
+ section {
+     background-color: white;
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     margin: 10px 40px;
+     margin-top: 50px;
+     margin-bottom: 50px;
+ }
+
+ .favChannels {
+    
+     width: 45%;
+     margin: 30px 20px;
+ }
+
+ .favChannels>h1 {
+     font-size: 45px;
+     font-weight: 300;
+     line-height: 50px;
+
+ }
+
+ .favChannels.p {
+     font-size: 24px;
+     font-weight: 300;
+     line-height: 30px;
+     margin-top: 25px;
+     color: #353333;
+ }
+
+ .chanelBtn {
+     width: 40%;
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .chanelBtn img {
+     width: 194px;
+     height: 134px;
+     margin: 5px;
+ }
+
+ .chanelBtn img:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 8px #000 , -3px -3px 8px #000;
+ }
+
+.fire-tv-header{
+    position: relative;
+    min-width: 320px;
+    height: 485px;
+    overflow: hidden;
+    color: #fff;
+ }
+
+ .fire-over-image{
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0);
+    width: 45%;
+    height: 100px;
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    transform: translate(-50%, -40%);
+ }
+
+ .fire-head {
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 50px;
+ }
+ .fire-para{
+    align-items: top-left;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 800px;
+    margin: 30px 0;
+ }
+
+ .fire-over-image > button {
+    width: 280px;
+    background-color: #0f79af;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 14px 22px;
+    margin-bottom: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+
+ }
+.logo > div{
+    text-align: center;
+    padding-bottom: 5px;
+
+}
+
+
+ footer {
+    background-color: #000;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+ }
+
+ #copyright > p {
+    margin-left: 20px;
+    padding-bottom: 20px;
+
+
+ }
+
+ .copy {
+    color: #949494;
+    text-align: center;
+    justify-self: center;
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 10px;
+ }
